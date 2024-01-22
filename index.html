@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js"></script>
+
+    <title>Evaluation</title>
+  </head>
+  <body>
+    <h2>Quizz Culture générale !</h2>
+    <div class="quiz-container">
+      <div class="question">
+        <p>Qui est l'empreur de France le 02 décembre 1804 ?</p>
+        <div class="options">
+          <label
+            ><input type="radio" name="q1" value="Clovis" checked />
+            Clovis</label
+          >
+          <label
+            ><input type="radio" name="q1" value="Abraham LINCOLN" /> Abraham
+            LINCOLN</label
+          >
+          <label
+            ><input type="radio" name="q1" value="Napoleon BONAPARTE" />
+            Napoleon BONAPARTE</label
+          >
+        </div>
+      </div>
+
+      <div class="question">
+        <p>Quelle est la date d'independance des Etats unis ?</p>
+        <div class="options">
+          <label
+            ><input type="radio" name="q2" value="4 juillet 1776" checked /> 4
+            juillet 1776</label
+          >
+          <label
+            ><input type="radio" name="q2" value="18 avril 1856" /> 18 avril
+            1856</label
+          >
+          <label
+            ><input type="radio" name="q2" value="30 juin 1925" /> 30 juin
+            1925</label
+          >
+        </div>
+      </div>
+
+      <div class="question">
+        <p>La chute de l'empire romain se situe en ?</p>
+        <div class="options">
+          <label
+            ><input type="radio" name="q3" value="15 après.J-C" checked /> 15
+            après.J-C</label
+          >
+          <label
+            ><input type="radio" name="q3" value=" 395 après.J-C" /> 395
+            après.J-C</label
+          >
+          <label
+            ><input type="radio" name="q3" value=" 740 après.J-C" /> 740
+            après.J-C</label
+          >
+        </div>
+      </div>
+
+      <div class="question">
+        <p>Quelle est la capital de la Slovénie ?</p>
+        <div class="options">
+          <label
+            ><input type="radio" name="q4" value="Ljublajana" checked />
+            Ljublajana</label
+          >
+          <label
+            ><input type="radio" name="q4" value="Belgrade" /> Belgrade</label
+          >
+          <label
+            ><input type="radio" name="q4" value="Bratislava" />
+            Bratislava</label
+          >
+        </div>
+      </div>
+
+      <div class="question">
+        <p>Combien d'habitants compte l'Irlande en 2020 ?</p>
+        <div class="options">
+          <label
+            ><input type="radio" name="q5" value="1,365 million" checked />
+            1,365 million</label
+          >
+          <label
+            ><input type="radio" name="q5" value="21 million" /> 21
+            million</label
+          >
+          <label
+            ><input type="radio" name="q5" value="4,9 million" /> 4,9
+            millions</label
+          >
+        </div>
+      </div>
+
+      <button onclick="validateQuiz()">Valide ton choix !</button>
+
+      <div class="validation" id="result-container">
+        <p id="result-message">Clique sur valider pour voir tes résultats</p>
+        <p id="score"></p>
+      </div>
+    </div>
+  </body>
+</html>
